@@ -3,7 +3,7 @@
 自己总结的各类知识，希望可以帮到有需要的人(๑•̀ㅂ•́)و✧
 
 ## 命令
-- [ ] Bash命令大全
+- [x] [Bash命令大全](https://github.com/Arlisol/toKnow/blob/master/commands/Bash%E5%91%BD%E4%BB%A4%E5%A4%A7%E5%85%A8.md)
 
 ## 语法
 - [ ] Markdown语法大全
