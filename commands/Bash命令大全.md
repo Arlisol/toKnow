@@ -33,6 +33,6 @@
 
 ## 参考
 
-[bash 命令和语法--带你升级打 boss | Laravel China 社区 - 高品质的 Laravel 开发者社区](https://learnku.com/articles/5932/bash-command-and-syntax-take-you-to-upgrade-hit-boss)
-[cmd 与 bash 基础命令入门 - 前端 - 掘金](https://juejin.im/entry/5a84461f6fb9a0633f0e20ff)
+[bash 命令和语法--带你升级打 boss | Laravel China 社区 - 高品质的 Laravel 开发者社区](https://learnku.com/articles/5932/bash-command-and-syntax-take-you-to-upgrade-hit-boss)  
+[cmd 与 bash 基础命令入门 - 前端 - 掘金](https://juejin.im/entry/5a84461f6fb9a0633f0e20ff)  
 [让你提升命令行效率的 Bash 快捷键 [完整版] · LinuxTOY](https://linuxtoy.org/archives/bash-shortcuts.html)
