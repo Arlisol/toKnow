@@ -139,12 +139,65 @@ e.g.
 find -name xxx ：在当前目录下查找 xxx 文件。  
 find *.txt ：在当前目录下查找所有 txt 文件。  
 find -empty ：查找所有为空的文件。  
-find -size -1000 ：查找小于 1000KB 的文件。   
+find -size -1000 ：查找小于 1000KB 的文件。  
 find -size +1000 ：查找大于 1000KB 的文件。  
 find / -name *.txt ：在根目录下查找所有的 txt 文件。  
 find /etc -name xxx ：在etc目录下查找 xxx 文件。
+![command-01-11](../images/command-images/01/command-01-11.png)
+
+* **grep** ：可以根据指定的内容来查找含有这些内容的文件。如果想忽略内容的大小写可以附加一个 **-i** 的参数。显示匹配行及行号附加 **-n**。如果只显示文件名，不显示具体匹配到的内容，则附加 **-I** 参数。
+e.g.  
+grep pattern * ：查找当前目录含有指定匹配模式的文件。**pattren** 可以是一个正则表达式。  
+grep xxx * ：查找当前目录含有单词 xxx 的文件。
+![command-01-12](../images/command-images/01/command-01-12.png)
+
+* **head** ：查看文件前10行。
+![command-01-13](../images/command-images/01/command-01-13.png)
+
+* **gzip** ：单独压缩指定的文件，压缩后删除被压缩文件，只保留压缩后的文件，并且不能压缩目录。
+e.g.  
+gzip xxx ：压缩指定的文件。  
+gzip xxx1 xxx2 xxx3 ：同时压缩多个文件。  
+gzip *.* ：gzip 还可以与通配符结合使用，压缩匹配到的文件。  
+gzip -l xxx.gz ：若想列出某个 **.gz** 压缩文件中的内容，可以附加一个 **-l** 参数。
+
+* **gunzip** ：解压某个 .gz 文件。
+
+* **zip** ：与 **gzip** 相比，**zip** 可以压缩目录还可以将多个文件压缩在一起，并保留被压缩的文件。
+e.g.  
+zip xxx.zip yyy zzz ：将指定的文件压缩到一个新创建的压缩文件中。  
+zip xxx.zip *.txt ：**zip** 也可以结合通配符使用，压缩匹配到的文件。  
+zip xxx.zip yyy ：**zip** 还可以一次性压缩一个目录。  
+zip -l xxx.zip ：若想列出某个 **.zip** 压缩文件中的内容，可以附加一个 **-l** 参数。
+
+* **unzip** ：解压某个 .zip 文件。
+
+* **tar** ：它是 Linux下的一个打包命令，它可以将一大堆松散的文件或者是目录打包在一起，从而保证资源的完整性。
+e.g.  
+tar -cvf package.tar xxx1 xxx2 xxx3 ：将指定的文件打包。
+tar -cvf package.tar yyy ：如果要打包一个目录，则指定目录名。
+tar -xvf package.tar ：如果想解包，则附加 **-xvf** 的参数即可。
+tar -tvf package.tar ：如果只是想列出某个包中含有的文件或目录,则附加 **-tvf** 参数即可。
+
+* **chmod** ：可以改变文件和目录的读、写、执行权限。
 
 ### 4.文本操作
+
+* **awk**：非常有用的一个文本处理命令，逐行运行，默认使用空格分割，**-F** 表示分割的样式。
+![command-01-14](../images/command-images/01/command-01-14.png)
+![command-01-15](../images/command-images/01/command-01-15.png)
+
+* **grep** ：匹配正则表达式的文本行，并输出，**-E** 正则模糊匹配，**-F** 精确字母匹配，**-w** 精确单词匹配。
+![command-01-16](../images/command-images/01/command-01-16.png)
+
+* **sed** ：正则替换。
+![command-01-17](../images/command-images/01/command-01-17.png)
+
+* **sort** ：排序。
+![command-01-18](../images/command-images/01/command-01-18.png)
+
+* **wc** ：统计文本行数，单词数，字符数。
+![command-01-19](../images/command-images/01/command-01-19.png)
 
 ### 5.SSH，系统信息，网络操作
 
