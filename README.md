@@ -2,6 +2,9 @@
 
 自己总结的各类知识，希望可以帮到有需要的人(๑•̀ㅂ•́)و✧
 
+## 笔记
+- [x] [LeetCode刷题笔记](https://github.com/Arlisol/toKnow/blob/master/notes/LeetCode%E5%88%B7%E9%A2%98%E7%AC%94%E8%AE%B0.md)
+
 ## 命令
 - [x] [Bash命令大全](https://github.com/Arlisol/toKnow/blob/master/commands/Bash%E5%91%BD%E4%BB%A4%E5%A4%A7%E5%85%A8.md)
 
